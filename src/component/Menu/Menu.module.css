@@ -1,0 +1,23 @@
+.menu {
+  width: 90%;
+  max-width: 96rem;
+  /* background-color: #fff; */
+  margin: 3.2rem auto;
+  animation: animateBottom .5s linear forwards;
+}
+
+.menu ul {
+  list-style-type: none;
+}
+
+@keyframes animateBottom {
+  0% {
+    opacity: 0;
+    translate: 0 4.8rem;
+  }
+
+  100% {
+    opacity: 1;
+    translate: 0;
+  }
+}
